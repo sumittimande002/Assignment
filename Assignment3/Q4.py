@@ -1,4 +1,6 @@
-for i in range(1,4):
-    for j in range(1,5):
-        print(f"{i},{j}",end=" ")
-    print() 
+# 4.Write a program to remove duplicate values from a list using a set.
+
+l = [10,20,40,10,50,20,90,30]
+print(l,type(l))
+s =set(l)
+print(s ,type(s))

@@ -1,14 +1,16 @@
-"""1.Create a list of 5 student names and:
-
-    a)Add one more name
-
-    b)Remove one name
-
-    c)Display the final list """
-
-
+# 1.Create a list of 5 student names and:
 l = ["Sumit","Rahul","Kunal","Raju","Rupesh"]
-print(type(l))
+
+# Add one more name
 l.append("Prajwal")
+
+# b)Remove one name
 l.pop(3)
+
+# c)Display the final list 
 print(l)
+
+
+
+
+
