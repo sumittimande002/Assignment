@@ -6,8 +6,8 @@
 l = [1,2,3,5,70,2]
 print(max(l))
 
-l.sort()
-print(l[-1])
+# l.sort()
+# print(l[-1])
 
 value = l[1]
 for i in l:
@@ -15,3 +15,10 @@ for i in l:
         max_value = i
 
 print(max_value)
+
+# for min value
+# for i in l :
+#     if value > i:
+#         min_value = i
+# print(min_value)
+
