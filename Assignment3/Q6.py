@@ -3,12 +3,12 @@
 d = {"id" : 101 ,"name" :"Sumit" ,"salary":50000}
 
 # Keys
-for keys in d:
+for keys in d.keys():
     print(keys)
 
 # Values
 for values in d.values():
     print(values)
 # Key - Values Pair
-for keyval in d.items():
-    print(keyval)
+for key_val in d.items():
+    print(key_val)

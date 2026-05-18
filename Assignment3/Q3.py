@@ -13,5 +13,8 @@ print(t[2])
 # c)Convert a tuple into a list, modify an element, and convert it back into a tuple.
 l = list(t)
 print(type(l))
+l.append("King")
+print(l)
 t1 =tuple(l)
 print(type(t1))
+print(t1)

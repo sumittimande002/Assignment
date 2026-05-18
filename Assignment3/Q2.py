@@ -3,5 +3,5 @@
 l = [10,50,70,60,40]
 l1 = sorted(l)
 print("Smallest Element : " ,l1[0])
-print("largest Element : " , l1[4])
+print("largest Element : " , l1[-1])
 
