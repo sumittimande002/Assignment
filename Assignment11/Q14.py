@@ -8,8 +8,14 @@ class PasswordLengthError(Exception):
 
 try:
     password = input("Enter a Password : ")
-    if password < 6:
+    if len(password) < 6:
         raise PasswordLengthError("Password must be Gretter then 6 char")
+    else:
+         print("Password is valid.")
+except PasswordLengthError as e:
+        print(e)
+finally:
+        print("Validation process completed.")
     
 
 
